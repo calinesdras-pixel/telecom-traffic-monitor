@@ -1,0 +1,29 @@
+# Variables sensibles
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Modèles de configuration
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Tests
+.pytest_cache/
+.coverage
+
+# Fichiers Python compilés
+*.pyo
